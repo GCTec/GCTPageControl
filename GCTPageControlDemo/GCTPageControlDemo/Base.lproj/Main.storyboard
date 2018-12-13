@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgN-MK-X5g">
+                                <rect key="frame" x="20" y="417" width="335" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="swq-39-8EA"/>
+                                </constraints>
+                                <state key="normal" title="circle animated"/>
+                                <connections>
+                                    <action selector="circleClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="if8-O0-fLG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9c-77-09d">
+                                <rect key="frame" x="20" y="517" width="335" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="JDp-0p-PrR"/>
+                                </constraints>
+                                <state key="normal" title="Jerky"/>
+                                <connections>
+                                    <action selector="jerkyClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w7h-eY-AdI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CCr-IL-SKB">
+                                <rect key="frame" x="20" y="40" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="IeF-1i-Trf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQp-Ro-Qv6">
+                                <rect key="frame" x="20" y="237" width="335" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="UfP-CC-Ujq"/>
+                                </constraints>
+                                <state key="normal" title="CollectionView can circle like banner"/>
+                                <connections>
+                                    <action selector="changeCollectionViewClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WoW-NW-qZp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRt-Vo-qfL">
+                                <rect key="frame" x="20" y="317" width="335" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="L10-VP-72E"/>
+                                </constraints>
+                                <state key="normal" title="normal circle"/>
+                                <connections>
+                                    <action selector="normalClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Cu-2n-Jfo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CCr-IL-SKB" secondAttribute="trailing" constant="20" id="102-yM-c6n"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IQp-Ro-Qv6" secondAttribute="trailing" constant="20" id="6gr-Dx-3UA"/>
+                            <constraint firstItem="bgN-MK-X5g" firstAttribute="top" secondItem="cRt-Vo-qfL" secondAttribute="bottom" constant="50" id="7Bx-Vn-SJA"/>
+                            <constraint firstItem="cRt-Vo-qfL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Diy-1g-DLw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="l9c-77-09d" secondAttribute="bottom" constant="100" id="FBt-Si-6SZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="l9c-77-09d" secondAttribute="trailing" constant="20" id="Mbm-m3-atH"/>
+                            <constraint firstItem="CCr-IL-SKB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="RZV-aE-oQk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cRt-Vo-qfL" secondAttribute="trailing" constant="20" id="eGp-0g-1G5"/>
+                            <constraint firstItem="CCr-IL-SKB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="hFe-9T-Mhj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bgN-MK-X5g" secondAttribute="trailing" constant="20" id="mYX-HO-zQu"/>
+                            <constraint firstItem="l9c-77-09d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="nUx-vc-JTL"/>
+                            <constraint firstItem="bgN-MK-X5g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ntV-Su-5lS"/>
+                            <constraint firstItem="IQp-Ro-Qv6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="p6k-TW-ybN"/>
+                            <constraint firstItem="cRt-Vo-qfL" firstAttribute="top" secondItem="IQp-Ro-Qv6" secondAttribute="bottom" constant="30" id="q6x-0f-edm"/>
+                            <constraint firstItem="l9c-77-09d" firstAttribute="top" secondItem="bgN-MK-X5g" secondAttribute="bottom" constant="50" id="wa6-Eb-Gnw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="CCr-IL-SKB" id="hjp-7u-N9f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

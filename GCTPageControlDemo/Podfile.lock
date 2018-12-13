@@ -1,0 +1,16 @@
+PODS:
+  - GCTPageControl (0.0.1)
+
+DEPENDENCIES:
+  - GCTPageControl (from `../`)
+
+EXTERNAL SOURCES:
+  GCTPageControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GCTPageControl: 0577b476b86384471cd916a1b56981074e7545e3
+
+PODFILE CHECKSUM: b68bfe6e13cfedd79d7b035e4860a4dc8b9925e2
+
+COCOAPODS: 1.5.3

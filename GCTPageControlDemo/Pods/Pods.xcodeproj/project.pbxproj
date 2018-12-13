@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		679A1C43616389B8103468582D0CB6D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		8B56FF6E65DD0B2105448D20D84ADB62 /* GCTUIPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 887C8606AF3B38F4597BAAD372669453 /* GCTUIPageControl.m */; };
+		B03B61EFCCA7B549160E07423DC35B90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		C616A12B7942114E9F932677E82DE320 /* GCTPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F722CEDD666AE320E1FA40A9E16EC25 /* GCTPageControl-dummy.m */; };
+		E3EDF25471BC6217126F64B5D815A9B3 /* Pods-GCTPageControlDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDA6879F59EE22D3808EEBF6309EB2 /* Pods-GCTPageControlDemo-dummy.m */; };
+		EAE9A12D41D1812294FCC70C0D5EB9DA /* GCTUIPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A89F4B8EF5931A3C9BCDA0B9E5DFBF /* GCTUIPageControl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42CA65DC4AEEB002DB0336A5D1B3663C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF206AEDF06C31ABD5D55B7C6DADFB8A;
+			remoteInfo = GCTPageControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16938708ECECDFB20B27B9ED5312358C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2F722CEDD666AE320E1FA40A9E16EC25 /* GCTPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCTPageControl-dummy.m"; sourceTree = "<group>"; };
+		7762BD49EB10EA0CB0A8E10A0B95A99E /* Pods-GCTPageControlDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCTPageControlDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7C6322EDB045C7B1A9922246BEF03ACF /* GCTPageControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCTPageControl.xcconfig; sourceTree = "<group>"; };
+		887C8606AF3B38F4597BAAD372669453 /* GCTUIPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCTUIPageControl.m; path = GCTPageControl/GCTUIPageControl.m; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ECDA6879F59EE22D3808EEBF6309EB2 /* Pods-GCTPageControlDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GCTPageControlDemo-dummy.m"; sourceTree = "<group>"; };
+		9ED3599021E6411D9352478D0413DCDA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A6FDBB9FC9FF532183D4D74477B1DACA /* Pods-GCTPageControlDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GCTPageControlDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B579BA4519AE094C1CA1D7AE4C186212 /* Pods-GCTPageControlDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCTPageControlDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C0AEDDA1AD7087C04F6BF0B780A6899E /* Pods-GCTPageControlDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GCTPageControlDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB280CE4354B28DF47CEACFCAD86EBD7 /* Pods-GCTPageControlDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCTPageControlDemo-resources.sh"; sourceTree = "<group>"; };
+		D06C8181E75E904C44700B273A6E16B7 /* GCTPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCTPageControl-prefix.pch"; sourceTree = "<group>"; };
+		D1A89F4B8EF5931A3C9BCDA0B9E5DFBF /* GCTUIPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCTUIPageControl.h; path = GCTPageControl/GCTUIPageControl.h; sourceTree = "<group>"; };
+		D590E0A6424558E406E8E9EB1A2B0626 /* Pods-GCTPageControlDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCTPageControlDemo-frameworks.sh"; sourceTree = "<group>"; };
+		D5E7DD8F123BA31FE6407077592971CD /* libGCTPageControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGCTPageControl.a; path = libGCTPageControl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03F67D750E1C747052F244ED91D6051 /* GCTPageControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GCTPageControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E817DD11B0B862C6F46D77187A067E99 /* libPods-GCTPageControlDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GCTPageControlDemo.a"; path = "libPods-GCTPageControlDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E74C08262AA36FCF2B5B31834615A12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B03B61EFCCA7B549160E07423DC35B90 /* Foundation.framework in Frameworks */,
+				679A1C43616389B8103468582D0CB6D1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC88584E82B32A9F6BFC32BDD64346D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2252D067666C219775E3CBF0AA5F2BCF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C6322EDB045C7B1A9922246BEF03ACF /* GCTPageControl.xcconfig */,
+				2F722CEDD666AE320E1FA40A9E16EC25 /* GCTPageControl-dummy.m */,
+				D06C8181E75E904C44700B273A6E16B7 /* GCTPageControl-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "GCTPageControlDemo/Pods/Target Support Files/GCTPageControl";
+			sourceTree = "<group>";
+		};
+		391EA5F907D053FD19E234375BE7B944 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E03F67D750E1C747052F244ED91D6051 /* GCTPageControl.podspec */,
+				16938708ECECDFB20B27B9ED5312358C /* LICENSE */,
+				9ED3599021E6411D9352478D0413DCDA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49826E824EBB3CCB65E884A68FA2971F /* Pods-GCTPageControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A6FDBB9FC9FF532183D4D74477B1DACA /* Pods-GCTPageControlDemo-acknowledgements.markdown */,
+				C0AEDDA1AD7087C04F6BF0B780A6899E /* Pods-GCTPageControlDemo-acknowledgements.plist */,
+				9ECDA6879F59EE22D3808EEBF6309EB2 /* Pods-GCTPageControlDemo-dummy.m */,
+				D590E0A6424558E406E8E9EB1A2B0626 /* Pods-GCTPageControlDemo-frameworks.sh */,
+				CB280CE4354B28DF47CEACFCAD86EBD7 /* Pods-GCTPageControlDemo-resources.sh */,
+				B579BA4519AE094C1CA1D7AE4C186212 /* Pods-GCTPageControlDemo.debug.xcconfig */,
+				7762BD49EB10EA0CB0A8E10A0B95A99E /* Pods-GCTPageControlDemo.release.xcconfig */,
+			);
+			name = "Pods-GCTPageControlDemo";
+			path = "Target Support Files/Pods-GCTPageControlDemo";
+			sourceTree = "<group>";
+		};
+		4D562F01D894036739523D8EC08B07FF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49826E824EBB3CCB65E884A68FA2971F /* Pods-GCTPageControlDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A7C31B35505D0B114F82729EB6F516E3 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D9F4858670335C0CE4518AE3F7BC5BB1 /* Products */,
+				4D562F01D894036739523D8EC08B07FF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A7C31B35505D0B114F82729EB6F516E3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5C9A14EB86F31E6AC0567B1E90AB77C /* GCTPageControl */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B5C9A14EB86F31E6AC0567B1E90AB77C /* GCTPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				D1A89F4B8EF5931A3C9BCDA0B9E5DFBF /* GCTUIPageControl.h */,
+				887C8606AF3B38F4597BAAD372669453 /* GCTUIPageControl.m */,
+				391EA5F907D053FD19E234375BE7B944 /* Pod */,
+				2252D067666C219775E3CBF0AA5F2BCF /* Support Files */,
+			);
+			name = GCTPageControl;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D9F4858670335C0CE4518AE3F7BC5BB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5E7DD8F123BA31FE6407077592971CD /* libGCTPageControl.a */,
+				E817DD11B0B862C6F46D77187A067E99 /* libPods-GCTPageControlDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B148F02E8611DBEF82EB4340E8ADD98C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE9A12D41D1812294FCC70C0D5EB9DA /* GCTUIPageControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B5E90BBADA2E9244B7AB04D09B34EF9 /* Pods-GCTPageControlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10DAC8C56A84936F8C50FD7DE9509C23 /* Build configuration list for PBXNativeTarget "Pods-GCTPageControlDemo" */;
+			buildPhases = (
+				76D0D2B4B831A9078B490BEF188BFC00 /* Sources */,
+				EAC88584E82B32A9F6BFC32BDD64346D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC501B3AA03F4966FB611655C4DDED6 /* PBXTargetDependency */,
+			);
+			name = "Pods-GCTPageControlDemo";
+			productName = "Pods-GCTPageControlDemo";
+			productReference = E817DD11B0B862C6F46D77187A067E99 /* libPods-GCTPageControlDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BF206AEDF06C31ABD5D55B7C6DADFB8A /* GCTPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C0FB4444321807419D7F717F4BCEB8 /* Build configuration list for PBXNativeTarget "GCTPageControl" */;
+			buildPhases = (
+				1DADA1730A159D372548D8E552E9735D /* Sources */,
+				8E74C08262AA36FCF2B5B31834615A12 /* Frameworks */,
+				B148F02E8611DBEF82EB4340E8ADD98C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCTPageControl;
+			productName = GCTPageControl;
+			productReference = D5E7DD8F123BA31FE6407077592971CD /* libGCTPageControl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D9F4858670335C0CE4518AE3F7BC5BB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF206AEDF06C31ABD5D55B7C6DADFB8A /* GCTPageControl */,
+				2B5E90BBADA2E9244B7AB04D09B34EF9 /* Pods-GCTPageControlDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DADA1730A159D372548D8E552E9735D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C616A12B7942114E9F932677E82DE320 /* GCTPageControl-dummy.m in Sources */,
+				8B56FF6E65DD0B2105448D20D84ADB62 /* GCTUIPageControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D0D2B4B831A9078B490BEF188BFC00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3EDF25471BC6217126F64B5D815A9B3 /* Pods-GCTPageControlDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFC501B3AA03F4966FB611655C4DDED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCTPageControl;
+			target = BF206AEDF06C31ABD5D55B7C6DADFB8A /* GCTPageControl */;
+			targetProxy = 42CA65DC4AEEB002DB0336A5D1B3663C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		047418CB76361128B51EEB9BB623E0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C6322EDB045C7B1A9922246BEF03ACF /* GCTPageControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GCTPageControl/GCTPageControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GCTPageControl;
+				PRODUCT_NAME = GCTPageControl;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10E1127A71CCF0A6C340A7572DF5ED55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B579BA4519AE094C1CA1D7AE4C186212 /* Pods-GCTPageControlDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2363095D9911A6410A0B3E3FFD3C1BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7762BD49EB10EA0CB0A8E10A0B95A99E /* Pods-GCTPageControlDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		552E737F62FCCF4B481888E1B5D20965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C6322EDB045C7B1A9922246BEF03ACF /* GCTPageControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GCTPageControl/GCTPageControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GCTPageControl;
+				PRODUCT_NAME = GCTPageControl;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10DAC8C56A84936F8C50FD7DE9509C23 /* Build configuration list for PBXNativeTarget "Pods-GCTPageControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E1127A71CCF0A6C340A7572DF5ED55 /* Debug */,
+				2363095D9911A6410A0B3E3FFD3C1BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C0FB4444321807419D7F717F4BCEB8 /* Build configuration list for PBXNativeTarget "GCTPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047418CB76361128B51EEB9BB623E0EA /* Debug */,
+				552E737F62FCCF4B481888E1B5D20965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
